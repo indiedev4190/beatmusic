@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo+Play:wght@300;400;600&family=Work+Sans:wght@200;300;400;500;600;700;800&display=swap');
+body{
+    font-family: 'Cairo Play', sans-serif;
+font-family: 'Work Sans', sans-serif;
+
+
+}
+*::selection{
+    background-color: yellow;
+}
+
+.header{
+    background-color: rgb(21, 126, 126);
+    color: white;
+    font-weight: 600;
+    height: 50px;
+    line-height: 50px;
+}
+.header a{
+    float: right;
+    margin-top: 5px;
+}
+
+/* start navbar */
+.navbar{
+    background-color: black;
+    color: white;
+    font-weight: 600;
+    height: 50px;
+    line-height: 50px;
+}
+/* end navbar */
+/* start slider */
+
+/* end slider */
+/*start feature*/
+.features{
+    margin-top: 75px;
+}
+
+.features i{
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    background-color:rgb(21, 126, 126);;
+    color: white;
+    font-size: 40px;
+}
+.features h1{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: red;
+}
+/*end feature* /
+
+/* start our team*/
+.our-team{
+    background-color: #eee;
+    padding: 20px;
+    background-image: url('../images/dottedbackground.jpg');
+    border-bottom: 3px solid rgb(21, 126, 126);
+}
+.our-team h1{
+    margin-top: -5px;
+    margin-bottom: 20px;
+    color: red;
+}
+/* end our team*/
+/* start statistics*/
+.statistics{
+   margin-top: 20px;
+    width: 100%;
+    height: 500px;
+   
+    background-image: url('../images/statisticsbg.jpg');
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+    background-attachment: fixed; 
+}
+.statistics .overly{
+   
+    background-color: rgba(0, 0, 0, 0.704);
+    height: 500px;
+    width: 102%;
+    margin-left: -11px;
+    border-bottom: 3px solid rgb(21, 126, 126);
+}
+
+
+.statistics .overly h4{
+    margin-top: 150px;
+    color: white;
+    font-weight: 500;
+    font-size: 30px;
+}
+.statistics .overly p{
+    color: white;
+    font-weight: 600;
+    font-size: 40px;
+}
+
+/* end statistics*/
+/* start partners */
+.partner{
+    margin-top: 0;
+    background-color: #eee;
+    padding: 50px;
+    background-image: url('../images/customerbg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: 3px solid rgb(21, 126, 126);
+
+}
+
+.partner h1{
+    margin-top: 105x;
+    margin-bottom: 40px;
+    color: red;
+}
+
+/* end partners */
+
+/* start recent news */
+.recent-news h1{
+    margin-top: 105x;
+    margin-bottom: 40px;
+}
+.recent-news .card{
+    border-bottom: 3px solid rgb(21, 126, 126);
+}
+.recent-news .card:hover{
+    background-color: rgb(21, 126, 126);
+}
+.recent-news .card img:hover{
+    padding: 3px;
+}
+
+
+/* end recent news */
+
+/* start footer */
+footer{
+    
+    padding-top:100px;
+    background-color: rgb(21, 126, 126);
+    /*background-image: url('../images/footerbg.jpg');*/
+    background-position: center;
+    background-size: cover;
+    
+}
+footer p{
+    font-size: 18px;
+}
+/* footer p::selection{
+    background-color: rgb(223, 223, 51);
+} */
+footer li{
+    list-style: none;
+}
+footer li a{
+    color: black;
+    text-decoration: none;
+}
+footer li a:hover{
+    color: white;
+    
+}
+/* footer a::selection{
+    background-color: rgb(223, 223, 51);
+} */
+/* end footer */
+
+/* start blog page */
+.jumbotron{
+    display: flex;
+    justify-content: space-between;
+    background-color: #eee;
+    padding: 50px;
+    margin-bottom: 50px;
+    margin-top: 30px;
+    height: 300px;
+}
+.blogs .jumbotron{
+    background-color: #eee;
+    height: 350px;
+}
+.jumbotron .blog-info{
+    flex: 2;
+}
+.jumbotron .blog-image{
+    flex: 1;
+}
+/* end blog page */
+
+/* start blog details  */
+.blog_details p{
+    line-height: 2;
+    
+}
+/* end details  */
+
+/* start courses */
+.courses{
+    transition: all 2s;
+}
+.courses img:hover{
+    transform: scale(1.1);
+}
+
+/* end courses */
